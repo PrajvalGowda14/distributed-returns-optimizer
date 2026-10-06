@@ -1,0 +1,41 @@
+case_id,order_id,retailer_id,contact_reason,case_status,resolution_type,sentiment,event_date
+C-CASE-0001,C-ORD-0001,RETAILER_C,Setup help,Closed,Guidance,Negative,2026-08-01
+C-CASE-0002,C-ORD-0002,RETAILER_C,Product question,Closed,Store credit,Negative,2026-07-21
+C-CASE-0003,C-ORD-0003,RETAILER_C,Delivery status,Closed,Store credit,Negative,2026-07-18
+C-CASE-0004,C-ORD-0004,RETAILER_C,Damage report,Open,Replacement,Negative,2026-07-25
+C-CASE-0005,C-ORD-0006,RETAILER_C,Delivery status,Closed,Store credit,Negative,2026-07-08
+C-CASE-0006,C-ORD-0007,RETAILER_C,Damage report,Open,Refund,Negative,2026-07-28
+C-CASE-0007,C-ORD-0008,RETAILER_C,Product question,Open,Store credit,Negative,2026-08-22
+C-CASE-0008,C-ORD-0009,RETAILER_C,Sizing question,Open,Exchange,Neutral,2026-07-21
+C-CASE-0009,C-ORD-0010,RETAILER_C,Sizing question,Closed,Exchange,Positive,2026-07-24
+C-CASE-0010,C-ORD-0014,RETAILER_C,Delivery status,Closed,Refund,Positive,2026-08-12
+C-CASE-0011,C-ORD-0016,RETAILER_C,Product question,Closed,Store credit,Negative,2026-08-08
+C-CASE-0012,C-ORD-0017,RETAILER_C,Product question,Closed,Refund,Neutral,2026-08-06
+C-CASE-0013,C-ORD-0019,RETAILER_C,Sizing question,Closed,Exchange,Neutral,2026-07-08
+C-CASE-0014,C-ORD-0020,RETAILER_C,Damage report,Closed,Replacement,Neutral,2026-08-21
+C-CASE-0015,C-ORD-0021,RETAILER_C,Damage report,Open,Refund,Negative,2026-08-08
+C-CASE-0016,C-ORD-0022,RETAILER_C,Product question,Open,Store credit,Positive,2026-07-12
+C-CASE-0017,C-ORD-0028,RETAILER_C,Compatibility question,Open,Exchange,Negative,2026-08-19
+C-CASE-0018,C-ORD-0029,RETAILER_C,Sizing question,Closed,Refund,Negative,2026-08-26
+C-CASE-0019,C-ORD-0031,RETAILER_C,Product question,Closed,Refund,Negative,2026-07-18
+C-CASE-0020,C-ORD-0034,RETAILER_C,Product question,Closed,Refund,Neutral,2026-07-08
+C-CASE-0021,C-ORD-0036,RETAILER_C,Compatibility question,Closed,Guidance,Positive,2026-07-20
+C-CASE-0022,C-ORD-0040,RETAILER_C,Sizing question,Open,Refund,Neutral,2026-07-05
+C-CASE-0023,C-ORD-0042,RETAILER_C,Setup help,Closed,Refund,Negative,2026-08-25
+C-CASE-0024,C-ORD-0045,RETAILER_C,Product question,Closed,Store credit,Negative,2026-08-23
+C-CASE-0025,C-ORD-0046,RETAILER_C,Setup help,Open,Escalated,Neutral,2026-08-24
+C-CASE-0026,C-ORD-0051,RETAILER_C,Sizing question,Closed,Refund,Positive,2026-08-22
+C-CASE-0027,C-ORD-0052,RETAILER_C,Product question,Closed,Exchange,Positive,2026-07-10
+C-CASE-0028,C-ORD-0054,RETAILER_C,Sizing question,Closed,Exchange,Positive,2026-08-01
+C-CASE-0029,C-ORD-0055,RETAILER_C,Compatibility question,Open,Refund,Neutral,2026-07-29
+C-CASE-0030,C-ORD-0056,RETAILER_C,Damage report,Open,Refund,Negative,2026-08-25
+C-CASE-0031,C-ORD-0059,RETAILER_C,Setup help,Open,Escalated,Negative,2026-07-30
+C-CASE-0032,C-ORD-0060,RETAILER_C,Product question,Closed,Refund,Neutral,2026-07-24
+C-CASE-0033,C-ORD-0062,RETAILER_C,Product question,Closed,Refund,Negative,2026-08-05
+C-CASE-0034,C-ORD-0065,RETAILER_C,Delivery status,Closed,Store credit,Neutral,2026-07-29
+C-CASE-0035,C-ORD-0094,RETAILER_C,Delivery status,Closed,Guidance,Positive,2026-08-15
+C-CASE-0036,C-ORD-0093,RETAILER_C,Product question,Closed,Guidance,Positive,2026-07-31
+C-CASE-0037,C-ORD-0076,RETAILER_C,Delivery status,Closed,Guidance,Neutral,2026-07-25
+C-CASE-0038,C-ORD-0100,RETAILER_C,Product question,Closed,Guidance,Positive,2026-07-24
+C-CASE-0039,C-ORD-0077,RETAILER_C,Delivery status,Closed,Guidance,Neutral,2026-08-23
+C-CASE-0040,C-ORD-0080,RETAILER_C,Delivery status,Closed,Guidance,Positive,2026-07-13

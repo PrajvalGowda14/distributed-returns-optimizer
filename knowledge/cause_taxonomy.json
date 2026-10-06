@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "note": "Shared return-cause taxonomy. Keywords are matched case-insensitively on whole words/phrases against return_reason + customer_comment. Causes are listed in tie-break priority order (most specific first).",
+  "causes": [
+    {
+      "code": "COMPATIBILITY",
+      "label": "Compatibility",
+      "description": "The product does not work with the customer's device, model, or existing equipment.",
+      "keywords": ["does not fit my phone", "doesn't fit my phone", "not compatible", "incompatible", "compatibility",
+                   "wrong device model", "device model", "wrong model", "does not work with", "doesn't work with",
+                   "not supported", "my phone", "my laptop", "my tablet"]
+    },
+    {
+      "code": "DIMENSION_MISMATCH",
+      "label": "Dimension mismatch",
+      "description": "Physical size or dimensions differ from what the customer understood from the listing.",
+      "keywords": ["looked larger online", "looked smaller online", "smaller than expected", "larger than expected",
+                   "bigger than expected", "smaller than it looked", "dimensions", "measurements",
+                   "does not fit in my", "doesn't fit in my", "too wide for", "too narrow for"]
+    },
+    {
+      "code": "FIT_TOO_SMALL",
+      "label": "Fit - too small",
+      "description": "Clothing or footwear is smaller or tighter than the customer expected for their usual size.",
+      "keywords": ["too small", "too tight", "tight", "runs small", "pinches", "pinched", "size up", "cramped"]
+    },
+    {
+      "code": "FIT_TOO_LARGE",
+      "label": "Fit - too large",
+      "description": "Clothing or footwear is larger, longer, or looser than the customer expected for their usual size.",
+      "keywords": ["too large", "too big", "too long", "too loose", "loose", "runs large", "baggy", "size down"]
+    },
+    {
+      "code": "SETUP_DIFFICULTY",
+      "label": "Setup difficulty",
+      "description": "The customer could not set up, assemble, install, or connect the product.",
+      "keywords": ["could not connect", "couldn't connect", "bluetooth", "setup", "set up", "instructions",
+                   "confusing", "pairing", "install", "assembly", "assemble"]
+    },
+    {
+      "code": "DAMAGED",
+      "label": "Damaged",
+      "description": "The product arrived broken, cracked, dented, or otherwise damaged.",
+      "keywords": ["arrived cracked", "arrived broken", "cracked", "broken", "damaged", "dented", "scratched",
+                   "shattered", "chipped"]
+    },
+    {
+      "code": "EXPECTATION_MISMATCH",
+      "label": "Expectation mismatch",
+      "description": "Colour, material, quality, or appearance differs from what the customer expected from the listing.",
+      "keywords": ["color looked different", "colour looked different", "looked different", "not as described",
+                   "not as pictured", "different from the photo", "not what i expected", "color", "colour",
+                   "shade", "material felt", "cheaper looking"]
+    },
+    {
+      "code": "DELIVERY_PROBLEM",
+      "label": "Delivery problem",
+      "description": "The order arrived late or delivery failed in a way that led to the return.",
+      "keywords": ["late", "delayed", "arrived after", "took too long", "missed delivery", "delivery was slow"]
+    },
+    {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "No transparent keyword rule matched. Reviewed manually; never used to infer retailer weaknesses.",
+      "keywords": []
+    }
+  ]
+}

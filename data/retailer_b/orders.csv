@@ -1,0 +1,101 @@
+order_id,retailer_id,product_category,product_name,delivery_status,exchange_available,event_date
+B-ORD-0001,RETAILER_B,Home,Wall Mirror,Delivered,True,2026-08-14
+B-ORD-0002,RETAILER_B,Electronics,Smartwatch Band Loop,Delivered,True,2026-08-08
+B-ORD-0003,RETAILER_B,Sports,Tennis Racket,Delivered,False,2026-08-19
+B-ORD-0004,RETAILER_B,Furniture,Oak Side Table,Delivered,False,2026-08-29
+B-ORD-0005,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-07-13
+B-ORD-0006,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-08-23
+B-ORD-0007,RETAILER_B,Furniture,Oak Side Table,Delivered,False,2026-08-14
+B-ORD-0008,RETAILER_B,Electronics,Phone Case Nova,Delivered,True,2026-07-23
+B-ORD-0009,RETAILER_B,Furniture,Two-Seat Sofa,Delivered,False,2026-07-05
+B-ORD-0010,RETAILER_B,Home,Wall Mirror,Delivered,False,2026-08-22
+B-ORD-0011,RETAILER_B,Home,Wall Mirror,Delivered,True,2026-08-15
+B-ORD-0012,RETAILER_B,Footwear,Court Sneaker,Delivered,True,2026-08-11
+B-ORD-0013,RETAILER_B,Home,Wall Mirror,Delivered late,False,2026-07-30
+B-ORD-0014,RETAILER_B,Apparel,Denim Jacket,Delivered,True,2026-07-21
+B-ORD-0015,RETAILER_B,Home,Table Lamp,Delivered,False,2026-08-26
+B-ORD-0016,RETAILER_B,Furniture,Compact Desk,Delivered,True,2026-07-22
+B-ORD-0017,RETAILER_B,Electronics,Laptop Dock Hub,Delivered,True,2026-07-14
+B-ORD-0018,RETAILER_B,Beauty,Velvet Lipstick,Delivered,False,2026-07-18
+B-ORD-0019,RETAILER_B,Footwear,Trail Runner Shoe,Delivered,True,2026-08-03
+B-ORD-0020,RETAILER_B,Furniture,Tall Bookshelf,Delivered,False,2026-08-16
+B-ORD-0021,RETAILER_B,Electronics,Laptop Dock Hub,Delivered,True,2026-08-11
+B-ORD-0022,RETAILER_B,Footwear,Leather Ankle Boot,Delivered,True,2026-08-20
+B-ORD-0023,RETAILER_B,Electronics,Wireless Earbuds Echo,Delivered,True,2026-07-15
+B-ORD-0024,RETAILER_B,Apparel,Wool Sweater,Delivered,True,2026-07-20
+B-ORD-0025,RETAILER_B,Home,Table Lamp,Delivered late,False,2026-07-28
+B-ORD-0026,RETAILER_B,Apparel,Denim Jacket,Delivered,True,2026-08-14
+B-ORD-0027,RETAILER_B,Furniture,Two-Seat Sofa,Delivered,True,2026-07-17
+B-ORD-0028,RETAILER_B,Footwear,Leather Ankle Boot,Delivered,True,2026-07-08
+B-ORD-0029,RETAILER_B,Furniture,Tall Bookshelf,Delivered,False,2026-08-17
+B-ORD-0030,RETAILER_B,Apparel,Denim Jacket,Delivered,True,2026-07-07
+B-ORD-0031,RETAILER_B,Beauty,Face Serum,Delivered,True,2026-07-24
+B-ORD-0032,RETAILER_B,Apparel,Wool Sweater,Delivered,True,2026-07-18
+B-ORD-0033,RETAILER_B,Footwear,Court Sneaker,Delivered,True,2026-07-19
+B-ORD-0034,RETAILER_B,Furniture,Compact Desk,Delivered,False,2026-07-07
+B-ORD-0035,RETAILER_B,Beauty,Velvet Lipstick,Delivered,False,2026-07-29
+B-ORD-0036,RETAILER_B,Furniture,Compact Desk,Delivered,False,2026-07-08
+B-ORD-0037,RETAILER_B,Electronics,Phone Case Nova,Delivered,True,2026-08-06
+B-ORD-0038,RETAILER_B,Footwear,Trail Runner Shoe,Delivered,True,2026-07-10
+B-ORD-0039,RETAILER_B,Beauty,Velvet Lipstick,Delivered,False,2026-07-06
+B-ORD-0040,RETAILER_B,Footwear,Leather Ankle Boot,Delivered,True,2026-08-08
+B-ORD-0041,RETAILER_B,Apparel,Chino Trousers,Delivered,True,2026-07-29
+B-ORD-0042,RETAILER_B,Home,Wall Mirror,Delivered,False,2026-07-20
+B-ORD-0043,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-07-07
+B-ORD-0044,RETAILER_B,Furniture,Tall Bookshelf,Delivered,False,2026-07-17
+B-ORD-0045,RETAILER_B,Electronics,USB-C Charger Volt,Delivered,True,2026-08-05
+B-ORD-0046,RETAILER_B,Electronics,Phone Case Nova,Delivered late,True,2026-07-27
+B-ORD-0047,RETAILER_B,Apparel,Chino Trousers,Delivered,True,2026-07-19
+B-ORD-0048,RETAILER_B,Apparel,Denim Jacket,Delivered,True,2026-08-15
+B-ORD-0049,RETAILER_B,Beauty,Velvet Lipstick,Delivered,False,2026-07-05
+B-ORD-0050,RETAILER_B,Sports,Tennis Racket,Delivered,True,2026-07-28
+B-ORD-0051,RETAILER_B,Apparel,Wool Sweater,Delivered,True,2026-08-28
+B-ORD-0052,RETAILER_B,Electronics,Phone Case Nova,Delivered,True,2026-07-04
+B-ORD-0053,RETAILER_B,Apparel,Denim Jacket,Delivered,True,2026-07-29
+B-ORD-0054,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-07-20
+B-ORD-0055,RETAILER_B,Home,Wall Mirror,Delivered,True,2026-07-29
+B-ORD-0056,RETAILER_B,Apparel,Denim Jacket,Delivered,True,2026-08-08
+B-ORD-0057,RETAILER_B,Beauty,Face Serum,Delivered,False,2026-07-15
+B-ORD-0058,RETAILER_B,Home,Table Lamp,Delivered,True,2026-08-06
+B-ORD-0059,RETAILER_B,Home,Wall Mirror,Delivered,True,2026-08-28
+B-ORD-0060,RETAILER_B,Furniture,Compact Desk,Delivered,False,2026-07-06
+B-ORD-0061,RETAILER_B,Apparel,Denim Jacket,Delivered,True,2026-08-12
+B-ORD-0062,RETAILER_B,Electronics,Wireless Earbuds Echo,Delivered,True,2026-07-27
+B-ORD-0063,RETAILER_B,Home,Table Lamp,Delivered late,False,2026-08-12
+B-ORD-0064,RETAILER_B,Footwear,Leather Ankle Boot,Delivered,True,2026-07-06
+B-ORD-0065,RETAILER_B,Apparel,Linen Shirt,Delivered late,True,2026-08-25
+B-ORD-0066,RETAILER_B,Beauty,Face Serum,In transit,False,2026-07-04
+B-ORD-0067,RETAILER_B,Footwear,Court Sneaker,Delivered,True,2026-08-09
+B-ORD-0068,RETAILER_B,Sports,Yoga Mat,Delivered late,False,2026-07-14
+B-ORD-0069,RETAILER_B,Apparel,Wool Sweater,Delivered,True,2026-07-29
+B-ORD-0070,RETAILER_B,Home,Wall Mirror,Delivered,True,2026-08-10
+B-ORD-0071,RETAILER_B,Beauty,Face Serum,Delivered,False,2026-07-01
+B-ORD-0072,RETAILER_B,Beauty,Velvet Lipstick,Delivered,True,2026-08-23
+B-ORD-0073,RETAILER_B,Electronics,Laptop Dock Hub,Delivered,True,2026-08-11
+B-ORD-0074,RETAILER_B,Sports,Tennis Racket,Delivered late,False,2026-07-19
+B-ORD-0075,RETAILER_B,Beauty,Body Lotion,Delivered,False,2026-07-31
+B-ORD-0076,RETAILER_B,Furniture,Tall Bookshelf,Delivered late,False,2026-07-25
+B-ORD-0077,RETAILER_B,Footwear,Court Sneaker,In transit,True,2026-08-17
+B-ORD-0078,RETAILER_B,Footwear,Trail Runner Shoe,Delivered,True,2026-08-19
+B-ORD-0079,RETAILER_B,Sports,Yoga Mat,Delivered,False,2026-08-02
+B-ORD-0080,RETAILER_B,Apparel,Linen Shirt,Delivered,True,2026-08-16
+B-ORD-0081,RETAILER_B,Apparel,Chino Trousers,Delivered,True,2026-07-29
+B-ORD-0082,RETAILER_B,Beauty,Velvet Lipstick,Delivered,False,2026-08-18
+B-ORD-0083,RETAILER_B,Beauty,Velvet Lipstick,Delivered late,False,2026-08-25
+B-ORD-0084,RETAILER_B,Footwear,Court Sneaker,Delivered,True,2026-08-06
+B-ORD-0085,RETAILER_B,Furniture,Tall Bookshelf,Delivered late,True,2026-08-17
+B-ORD-0086,RETAILER_B,Furniture,Compact Desk,Delivered late,False,2026-08-20
+B-ORD-0087,RETAILER_B,Sports,Tennis Racket,Delivered late,False,2026-07-09
+B-ORD-0088,RETAILER_B,Beauty,Body Lotion,Delivered,False,2026-08-25
+B-ORD-0089,RETAILER_B,Sports,Yoga Mat,Delivered,False,2026-07-30
+B-ORD-0090,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-07-27
+B-ORD-0091,RETAILER_B,Sports,Tennis Racket,Delivered,False,2026-07-17
+B-ORD-0092,RETAILER_B,Apparel,Chino Trousers,Delivered,True,2026-08-24
+B-ORD-0093,RETAILER_B,Apparel,Chino Trousers,Delivered,True,2026-08-10
+B-ORD-0094,RETAILER_B,Home,Wall Mirror,In transit,True,2026-07-05
+B-ORD-0095,RETAILER_B,Footwear,Court Sneaker,Delivered,True,2026-07-15
+B-ORD-0096,RETAILER_B,Home,Area Rug,Delivered late,False,2026-08-18
+B-ORD-0097,RETAILER_B,Home,Area Rug,Delivered late,True,2026-07-20
+B-ORD-0098,RETAILER_B,Electronics,Phone Case Nova,Delivered,True,2026-08-20
+B-ORD-0099,RETAILER_B,Electronics,Wireless Earbuds Echo,Delivered,True,2026-07-24
+B-ORD-0100,RETAILER_B,Furniture,Tall Bookshelf,Delivered,False,2026-08-06

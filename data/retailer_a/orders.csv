@@ -1,0 +1,101 @@
+order_id,retailer_id,product_category,product_name,delivery_status,exchange_available,event_date
+A-ORD-0001,RETAILER_A,Sports,Tennis Racket,Delivered,True,2026-08-25
+A-ORD-0002,RETAILER_A,Footwear,Court Sneaker,Delivered,True,2026-08-23
+A-ORD-0003,RETAILER_A,Electronics,Wireless Earbuds Echo,Delivered,True,2026-07-23
+A-ORD-0004,RETAILER_A,Furniture,Two-Seat Sofa,Delivered,False,2026-08-14
+A-ORD-0005,RETAILER_A,Electronics,Bluetooth Speaker Pulse,Delivered late,True,2026-07-11
+A-ORD-0006,RETAILER_A,Apparel,Wool Sweater,Delivered,True,2026-07-11
+A-ORD-0007,RETAILER_A,Furniture,Two-Seat Sofa,Delivered,False,2026-08-29
+A-ORD-0008,RETAILER_A,Home,Table Lamp,Delivered,False,2026-08-23
+A-ORD-0009,RETAILER_A,Footwear,Trail Runner Shoe,Delivered,True,2026-08-21
+A-ORD-0010,RETAILER_A,Electronics,Wireless Earbuds Echo,Delivered,True,2026-07-05
+A-ORD-0011,RETAILER_A,Beauty,Body Lotion,Delivered,True,2026-07-21
+A-ORD-0012,RETAILER_A,Furniture,Compact Desk,Delivered,True,2026-07-10
+A-ORD-0013,RETAILER_A,Home,Table Lamp,Delivered late,False,2026-08-17
+A-ORD-0014,RETAILER_A,Apparel,Denim Jacket,Delivered,True,2026-07-15
+A-ORD-0015,RETAILER_A,Footwear,Leather Ankle Boot,Delivered,True,2026-07-06
+A-ORD-0016,RETAILER_A,Furniture,Tall Bookshelf,Delivered,True,2026-08-10
+A-ORD-0017,RETAILER_A,Home,Area Rug,Delivered,False,2026-07-25
+A-ORD-0018,RETAILER_A,Home,Table Lamp,Delivered late,False,2026-08-05
+A-ORD-0019,RETAILER_A,Beauty,Body Lotion,Delivered,False,2026-07-08
+A-ORD-0020,RETAILER_A,Furniture,Two-Seat Sofa,Delivered,True,2026-07-08
+A-ORD-0021,RETAILER_A,Apparel,Linen Shirt,Delivered,True,2026-08-16
+A-ORD-0022,RETAILER_A,Electronics,USB-C Charger Volt,Delivered,True,2026-08-02
+A-ORD-0023,RETAILER_A,Furniture,Two-Seat Sofa,Delivered,False,2026-08-23
+A-ORD-0024,RETAILER_A,Home,Table Lamp,Delivered late,True,2026-08-18
+A-ORD-0025,RETAILER_A,Apparel,Denim Jacket,Delivered,True,2026-08-01
+A-ORD-0026,RETAILER_A,Furniture,Two-Seat Sofa,Delivered,False,2026-08-26
+A-ORD-0027,RETAILER_A,Apparel,Linen Shirt,Delivered,True,2026-07-16
+A-ORD-0028,RETAILER_A,Furniture,Compact Desk,Delivered,True,2026-08-22
+A-ORD-0029,RETAILER_A,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-07-31
+A-ORD-0030,RETAILER_A,Electronics,Smartwatch Band Loop,Delivered,True,2026-08-25
+A-ORD-0031,RETAILER_A,Electronics,USB-C Charger Volt,Delivered,True,2026-08-29
+A-ORD-0032,RETAILER_A,Furniture,Two-Seat Sofa,Delivered,False,2026-07-26
+A-ORD-0033,RETAILER_A,Apparel,Chino Trousers,Delivered,True,2026-07-08
+A-ORD-0034,RETAILER_A,Electronics,Phone Case Nova,Delivered,True,2026-07-22
+A-ORD-0035,RETAILER_A,Electronics,Smartwatch Band Loop,Delivered,True,2026-07-15
+A-ORD-0036,RETAILER_A,Home,Area Rug,Delivered,False,2026-07-05
+A-ORD-0037,RETAILER_A,Beauty,Face Serum,Delivered,True,2026-08-27
+A-ORD-0038,RETAILER_A,Sports,Tennis Racket,Delivered,False,2026-07-18
+A-ORD-0039,RETAILER_A,Beauty,Face Serum,Delivered,False,2026-08-16
+A-ORD-0040,RETAILER_A,Home,Wall Mirror,Delivered,False,2026-07-16
+A-ORD-0041,RETAILER_A,Footwear,Trail Runner Shoe,Delivered,True,2026-07-07
+A-ORD-0042,RETAILER_A,Apparel,Chino Trousers,Delivered,True,2026-07-27
+A-ORD-0043,RETAILER_A,Apparel,Linen Shirt,Delivered,True,2026-08-13
+A-ORD-0044,RETAILER_A,Apparel,Linen Shirt,Delivered,True,2026-07-04
+A-ORD-0045,RETAILER_A,Apparel,Denim Jacket,Delivered,True,2026-08-21
+A-ORD-0046,RETAILER_A,Home,Ceramic Vase,Delivered,False,2026-07-13
+A-ORD-0047,RETAILER_A,Footwear,Trail Runner Shoe,Delivered,True,2026-07-18
+A-ORD-0048,RETAILER_A,Home,Area Rug,Delivered,False,2026-07-29
+A-ORD-0049,RETAILER_A,Electronics,Phone Case Nova,Delivered,True,2026-08-11
+A-ORD-0050,RETAILER_A,Electronics,Phone Case Nova,Delivered,True,2026-08-29
+A-ORD-0051,RETAILER_A,Beauty,Velvet Lipstick,Delivered,False,2026-08-01
+A-ORD-0052,RETAILER_A,Apparel,Wool Sweater,Delivered,True,2026-07-25
+A-ORD-0053,RETAILER_A,Electronics,Wireless Earbuds Echo,Delivered,True,2026-08-29
+A-ORD-0054,RETAILER_A,Apparel,Chino Trousers,Delivered,True,2026-08-14
+A-ORD-0055,RETAILER_A,Electronics,USB-C Charger Volt,Delivered,True,2026-07-19
+A-ORD-0056,RETAILER_A,Home,Area Rug,Delivered late,False,2026-08-17
+A-ORD-0057,RETAILER_A,Electronics,Laptop Dock Hub,Delivered,True,2026-08-02
+A-ORD-0058,RETAILER_A,Furniture,Oak Side Table,Delivered,True,2026-08-02
+A-ORD-0059,RETAILER_A,Electronics,Smartwatch Band Loop,Delivered,True,2026-07-05
+A-ORD-0060,RETAILER_A,Furniture,Oak Side Table,Delivered,False,2026-08-30
+A-ORD-0061,RETAILER_A,Footwear,Court Sneaker,Delivered,True,2026-07-03
+A-ORD-0062,RETAILER_A,Footwear,Court Sneaker,Delivered,True,2026-08-07
+A-ORD-0063,RETAILER_A,Apparel,Wool Sweater,Delivered,True,2026-08-12
+A-ORD-0064,RETAILER_A,Electronics,USB-C Charger Volt,Delivered,True,2026-07-17
+A-ORD-0065,RETAILER_A,Footwear,Court Sneaker,Delivered,True,2026-08-11
+A-ORD-0066,RETAILER_A,Apparel,Linen Shirt,Delivered,True,2026-07-30
+A-ORD-0067,RETAILER_A,Beauty,Body Lotion,Delivered,True,2026-07-14
+A-ORD-0068,RETAILER_A,Beauty,Velvet Lipstick,Delivered,False,2026-08-26
+A-ORD-0069,RETAILER_A,Electronics,USB-C Charger Volt,Delivered,True,2026-07-19
+A-ORD-0070,RETAILER_A,Footwear,Leather Ankle Boot,In transit,True,2026-08-15
+A-ORD-0071,RETAILER_A,Apparel,Linen Shirt,In transit,True,2026-07-20
+A-ORD-0072,RETAILER_A,Home,Area Rug,Delivered,True,2026-08-26
+A-ORD-0073,RETAILER_A,Electronics,Bluetooth Speaker Pulse,In transit,True,2026-07-10
+A-ORD-0074,RETAILER_A,Apparel,Denim Jacket,In transit,True,2026-07-14
+A-ORD-0075,RETAILER_A,Home,Table Lamp,Delivered,False,2026-08-24
+A-ORD-0076,RETAILER_A,Apparel,Chino Trousers,Delivered,True,2026-08-27
+A-ORD-0077,RETAILER_A,Sports,Tennis Racket,Delivered,False,2026-08-23
+A-ORD-0078,RETAILER_A,Apparel,Linen Shirt,Delivered,True,2026-07-22
+A-ORD-0079,RETAILER_A,Sports,Tennis Racket,Delivered,True,2026-07-29
+A-ORD-0080,RETAILER_A,Beauty,Body Lotion,Delivered late,False,2026-07-08
+A-ORD-0081,RETAILER_A,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-08-04
+A-ORD-0082,RETAILER_A,Electronics,Wireless Earbuds Echo,In transit,True,2026-08-05
+A-ORD-0083,RETAILER_A,Footwear,Leather Ankle Boot,Delivered,True,2026-07-03
+A-ORD-0084,RETAILER_A,Apparel,Denim Jacket,Delivered,True,2026-08-27
+A-ORD-0085,RETAILER_A,Apparel,Wool Sweater,Delivered,True,2026-08-12
+A-ORD-0086,RETAILER_A,Electronics,Wireless Earbuds Echo,In transit,True,2026-08-26
+A-ORD-0087,RETAILER_A,Sports,Yoga Mat,In transit,False,2026-08-29
+A-ORD-0088,RETAILER_A,Footwear,Trail Runner Shoe,Delivered,True,2026-08-26
+A-ORD-0089,RETAILER_A,Furniture,Oak Side Table,Delivered,False,2026-07-22
+A-ORD-0090,RETAILER_A,Sports,Yoga Mat,Delivered,True,2026-08-20
+A-ORD-0091,RETAILER_A,Home,Area Rug,Delivered late,False,2026-08-24
+A-ORD-0092,RETAILER_A,Furniture,Tall Bookshelf,Delivered,False,2026-07-30
+A-ORD-0093,RETAILER_A,Apparel,Denim Jacket,Delivered,True,2026-07-15
+A-ORD-0094,RETAILER_A,Electronics,Bluetooth Speaker Pulse,Delivered,True,2026-07-26
+A-ORD-0095,RETAILER_A,Apparel,Denim Jacket,Delivered,True,2026-08-19
+A-ORD-0096,RETAILER_A,Apparel,Denim Jacket,In transit,True,2026-07-26
+A-ORD-0097,RETAILER_A,Home,Table Lamp,Delivered,True,2026-07-17
+A-ORD-0098,RETAILER_A,Footwear,Court Sneaker,Delivered,True,2026-07-03
+A-ORD-0099,RETAILER_A,Electronics,Smartwatch Band Loop,Delivered late,True,2026-07-23
+A-ORD-0100,RETAILER_A,Home,Table Lamp,Delivered late,False,2026-08-02

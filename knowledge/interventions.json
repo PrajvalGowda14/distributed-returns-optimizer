@@ -1,0 +1,166 @@
+{
+  "version": "1.0",
+  "disclaimer": "All percentages are fictional demonstration assumptions for a prototype, not proven business results. Validate every intervention with a controlled experiment before deployment.",
+  "impact_multipliers": {
+    "note": "Forecast percentages apply in full to High-impact interventions and are scaled for lower-impact ones (demonstration assumption).",
+    "High": 1.0,
+    "Medium": 0.75,
+    "Low": 0.5
+  },
+  "causes": {
+    "COMPATIBILITY": {
+      "description": "Customers buy accessories or devices that do not work with their existing model or equipment.",
+      "applicable_categories": ["Electronics"],
+      "success_metric": "Compatibility-related return share for the affected product group",
+      "pre_purchase": [
+        {"id": "compat_checker", "name": "Compatibility checker", "description": "Ask the shopper for their device model and show a clear compatible / not compatible result before add-to-cart.", "effort": "Medium", "expected_impact": "High", "placement": "Product page, above add-to-cart"},
+        {"id": "device_model_confirmation", "name": "Device-model confirmation", "description": "Require the shopper to confirm their device model at checkout for accessory orders.", "effort": "Low", "expected_impact": "Medium", "placement": "Checkout step"},
+        {"id": "supported_model_list", "name": "Supported-model list", "description": "Publish an explicit, searchable list of supported models on every accessory listing.", "effort": "Low", "expected_impact": "Medium", "placement": "Product page specifications"}
+      ],
+      "post_purchase": [
+        {"id": "compatible_replacement", "name": "Recommend compatible replacement", "description": "Draft a message suggesting the correct compatible variant when a compatibility return is started.", "effort": "Low", "expected_impact": "High", "channel": "Customer support queue", "satisfaction_impact": "High", "requires_human_approval": true},
+        {"id": "one_click_exchange", "name": "Offer one-click exchange", "description": "Offer an exchange for the compatible model alongside the normal refund option.", "effort": "Medium", "expected_impact": "Medium", "channel": "Returns portal", "satisfaction_impact": "High", "requires_human_approval": true},
+        {"id": "tech_support_routing", "name": "Route to technical support", "description": "Route compatibility questions to a technical specialist before the return is completed.", "effort": "Low", "expected_impact": "Medium", "channel": "Technical support queue", "satisfaction_impact": "Medium", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 12, "expected_percent": 20, "high_percent": 25, "confidence": 0.78, "satisfaction_effect": "Likely positive", "implementation_cost": "Medium"},
+      "experiment": {"design": "Two-week randomized A/B test", "duration_days": 14, "primary_metric": "Compatibility return share", "guardrail_metrics": ["Conversion rate", "Checkout abandonment", "Customer satisfaction"]},
+      "risks": ["Extra checkout friction can reduce conversion", "Incomplete model lists can mislead shoppers"],
+      "guardrails": ["Conversion rate", "Checkout abandonment", "Customer satisfaction"]
+    },
+    "FIT_TOO_SMALL": {
+      "description": "Apparel or footwear runs smaller or tighter than the shopper's usual size.",
+      "applicable_categories": ["Footwear", "Apparel"],
+      "success_metric": "Size-related return share and exchange-to-refund ratio",
+      "pre_purchase": [
+        {"id": "measurement_size_guide", "name": "Measurement-based size guide", "description": "Show garment or insole measurements with how-to-measure guidance for every size.", "effort": "Low", "expected_impact": "High", "placement": "Size selector"},
+        {"id": "runs_small_warning", "name": "Runs-small warning", "description": "Show a qualitative 'many shoppers size up' note when fit feedback indicates the item runs small.", "effort": "Low", "expected_impact": "Medium", "placement": "Next to size selector"},
+        {"id": "review_fit_summary", "name": "Review-based fit summary", "description": "Summarize fit feedback from reviews (runs small / true to size / runs large).", "effort": "Medium", "expected_impact": "Medium", "placement": "Product page, reviews header"}
+      ],
+      "post_purchase": [
+        {"id": "size_exchange_offer", "name": "Offer next-size exchange", "description": "Offer a free exchange for the next size up when a too-small return is started.", "effort": "Low", "expected_impact": "High", "channel": "Returns portal", "satisfaction_impact": "High", "requires_human_approval": true},
+        {"id": "fit_advice_message", "name": "Send fit advice", "description": "Draft a fit-advice message with measurement tips for the customer's next purchase.", "effort": "Low", "expected_impact": "Low", "channel": "Email draft", "satisfaction_impact": "Medium", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 10, "expected_percent": 18, "high_percent": 24, "confidence": 0.74, "satisfaction_effect": "Likely positive", "implementation_cost": "Low"},
+      "experiment": {"design": "Two-week randomized A/B test on size-guide exposure", "duration_days": 14, "primary_metric": "Size-related return share", "guardrail_metrics": ["Conversion rate", "Average order value", "Customer satisfaction"]},
+      "risks": ["Fit warnings may push shoppers to the wrong size if feedback is sparse"],
+      "guardrails": ["Conversion rate", "Customer satisfaction", "Exchange rate"]
+    },
+    "FIT_TOO_LARGE": {
+      "description": "Apparel or footwear runs larger, longer, or looser than the shopper's usual size.",
+      "applicable_categories": ["Apparel", "Footwear"],
+      "success_metric": "Size-related return share and exchange-to-refund ratio",
+      "pre_purchase": [
+        {"id": "measurement_size_guide_large", "name": "Measurement-based size guide", "description": "Show length, chest, and waist measurements and the model's size for comparison.", "effort": "Low", "expected_impact": "High", "placement": "Size selector"},
+        {"id": "runs_large_warning", "name": "Runs-large warning", "description": "Show a qualitative 'many shoppers size down' note when fit feedback indicates the item runs large.", "effort": "Low", "expected_impact": "Medium", "placement": "Next to size selector"}
+      ],
+      "post_purchase": [
+        {"id": "size_down_exchange", "name": "Offer size-down exchange", "description": "Offer a free exchange for a smaller size when a too-large return is started.", "effort": "Low", "expected_impact": "High", "channel": "Returns portal", "satisfaction_impact": "High", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 9, "expected_percent": 16, "high_percent": 22, "confidence": 0.72, "satisfaction_effect": "Likely positive", "implementation_cost": "Low"},
+      "experiment": {"design": "Two-week randomized A/B test", "duration_days": 14, "primary_metric": "Size-related return share", "guardrail_metrics": ["Conversion rate", "Customer satisfaction"]},
+      "risks": ["Fit warnings may reduce conversion on items that fit most shoppers"],
+      "guardrails": ["Conversion rate", "Customer satisfaction"]
+    },
+    "EXPECTATION_MISMATCH": {
+      "description": "Colour, material, or overall appearance differs from what the listing led the shopper to expect.",
+      "applicable_categories": ["Apparel", "Beauty", "Home", "Footwear", "Electronics"],
+      "success_metric": "Expectation-related return share",
+      "pre_purchase": [
+        {"id": "true_color_imagery", "name": "True-colour photography", "description": "Use colour-calibrated photos in natural light, with a 'shown in daylight' caption.", "effort": "Medium", "expected_impact": "High", "placement": "Product image gallery"},
+        {"id": "material_closeups", "name": "Material close-ups and video", "description": "Add texture close-ups and short video so shoppers can judge material and finish.", "effort": "Medium", "expected_impact": "Medium", "placement": "Product image gallery"},
+        {"id": "review_photo_highlights", "name": "Customer photo highlights", "description": "Surface customer-submitted photos near the main gallery.", "effort": "Low", "expected_impact": "Medium", "placement": "Product page, below gallery"}
+      ],
+      "post_purchase": [
+        {"id": "expectation_feedback_loop", "name": "Listing-correction feedback", "description": "Draft an internal ticket to correct the listing when expectation returns cluster on one product.", "effort": "Low", "expected_impact": "Medium", "channel": "Merchandising queue", "satisfaction_impact": "Medium", "requires_human_approval": true},
+        {"id": "alternative_suggestion", "name": "Suggest a closer alternative", "description": "Draft a message suggesting an alternative that better matches what the customer wanted.", "effort": "Low", "expected_impact": "Low", "channel": "Customer support queue", "satisfaction_impact": "Medium", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 8, "expected_percent": 14, "high_percent": 20, "confidence": 0.7, "satisfaction_effect": "Likely positive", "implementation_cost": "Medium"},
+      "experiment": {"design": "Three-week randomized A/B test on gallery content", "duration_days": 21, "primary_metric": "Expectation-related return share", "guardrail_metrics": ["Conversion rate", "Page load time", "Customer satisfaction"]},
+      "risks": ["Heavier media can slow product pages"],
+      "guardrails": ["Conversion rate", "Page load time", "Customer satisfaction"]
+    },
+    "DIMENSION_MISMATCH": {
+      "description": "The product is physically larger or smaller than the shopper understood from the listing.",
+      "applicable_categories": ["Furniture", "Home"],
+      "success_metric": "Dimension-related return share",
+      "pre_purchase": [
+        {"id": "prominent_dimensions", "name": "Prominent dimensions", "description": "Show width, depth, and height in a highlighted block near the price, in the shopper's preferred units.", "effort": "Low", "expected_impact": "High", "placement": "Product page, near price"},
+        {"id": "visual_size_comparison", "name": "Visual size comparison", "description": "Show the product next to familiar reference objects (a person, a door, a sofa).", "effort": "Medium", "expected_impact": "Medium", "placement": "Product image gallery"},
+        {"id": "room_context_preview", "name": "Room or context preview", "description": "Offer an in-room preview (photo overlay or AR) to check scale before buying.", "effort": "High", "expected_impact": "High", "placement": "Product page, gallery action"}
+      ],
+      "post_purchase": [
+        {"id": "size_alternative_offer", "name": "Offer a better-sized alternative", "description": "Draft a message suggesting a model with suitable dimensions instead of a refund.", "effort": "Low", "expected_impact": "Medium", "channel": "Customer support queue", "satisfaction_impact": "Medium", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 10, "expected_percent": 17, "high_percent": 23, "confidence": 0.73, "satisfaction_effect": "Likely positive", "implementation_cost": "Medium"},
+      "experiment": {"design": "Three-week randomized A/B test", "duration_days": 21, "primary_metric": "Dimension-related return share", "guardrail_metrics": ["Conversion rate", "Customer satisfaction"]},
+      "risks": ["AR previews may not work on all devices"],
+      "guardrails": ["Conversion rate", "Customer satisfaction"]
+    },
+    "DAMAGED": {
+      "description": "Products arrive broken, cracked, dented, or scratched.",
+      "applicable_categories": ["Furniture", "Home", "Electronics", "Beauty"],
+      "success_metric": "Damage-related return share and replacement cost",
+      "pre_purchase": [
+        {"id": "fragility_packaging", "name": "Fragility-aware packaging", "description": "Choose packaging by product fragility and carrier damage history.", "effort": "Medium", "expected_impact": "High", "placement": "Fulfilment packing station"},
+        {"id": "white_glove_option", "name": "White-glove delivery option", "description": "Offer assisted delivery for large or fragile items at checkout.", "effort": "High", "expected_impact": "Medium", "placement": "Checkout delivery options"}
+      ],
+      "post_purchase": [
+        {"id": "offer_replacement", "name": "Offer replacement", "description": "Draft a replacement offer as the default resolution for damaged items.", "effort": "Low", "expected_impact": "High", "channel": "Customer support queue", "satisfaction_impact": "High", "requires_human_approval": true},
+        {"id": "photo_verification", "name": "Create photo-verification workflow", "description": "Ask for a photo of the damage to speed up the claim; never use it to block a legitimate return.", "effort": "Medium", "expected_impact": "Medium", "channel": "Returns portal", "satisfaction_impact": "Medium", "requires_human_approval": true},
+        {"id": "fulfillment_escalation", "name": "Escalate fulfilment issue", "description": "Open an internal escalation with fulfilment and the carrier when damage clusters.", "effort": "Low", "expected_impact": "Medium", "channel": "Fulfilment operations queue", "satisfaction_impact": "Low", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 15, "expected_percent": 25, "high_percent": 35, "confidence": 0.75, "satisfaction_effect": "Likely positive", "implementation_cost": "Medium"},
+      "experiment": {"design": "Four-week packaging pilot with matched control lanes", "duration_days": 28, "primary_metric": "Damage-related return share", "guardrail_metrics": ["Packaging cost per order", "Delivery time", "Customer satisfaction"]},
+      "risks": ["Higher packaging cost", "Photo requirements could feel like friction if made mandatory"],
+      "guardrails": ["Packaging cost per order", "Delivery time", "Customer satisfaction"]
+    },
+    "SETUP_DIFFICULTY": {
+      "description": "Customers cannot set up, assemble, install, or connect the product.",
+      "applicable_categories": ["Electronics", "Furniture", "Home"],
+      "success_metric": "Setup-related return share and setup-contact resolution rate",
+      "pre_purchase": [
+        {"id": "setup_preview", "name": "Setup preview", "description": "Show setup steps, required tools, and estimated time on the product page.", "effort": "Low", "expected_impact": "Medium", "placement": "Product page, 'What's involved'"},
+        {"id": "quick_start_video", "name": "Quick-start video", "description": "Link a short setup video from the listing and the packaging QR code.", "effort": "Medium", "expected_impact": "High", "placement": "Product page and packaging"}
+      ],
+      "post_purchase": [
+        {"id": "send_setup_guide", "name": "Send setup guide", "description": "Draft a delivery-day message with the setup guide and video.", "effort": "Low", "expected_impact": "Medium", "channel": "Email draft", "satisfaction_impact": "Medium", "requires_human_approval": true},
+        {"id": "offer_troubleshooting", "name": "Offer troubleshooting", "description": "Draft a guided troubleshooting offer when a setup contact or return is started.", "effort": "Low", "expected_impact": "High", "channel": "Customer support queue", "satisfaction_impact": "High", "requires_human_approval": true},
+        {"id": "live_support_escalation", "name": "Escalate to live support", "description": "Route unresolved setup cases to a live specialist callback.", "effort": "Medium", "expected_impact": "Medium", "channel": "Live support queue", "satisfaction_impact": "High", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 14, "expected_percent": 22, "high_percent": 30, "confidence": 0.76, "satisfaction_effect": "Likely positive", "implementation_cost": "Low"},
+      "experiment": {"design": "Two-week randomized A/B test on setup-guide outreach", "duration_days": 14, "primary_metric": "Setup-related return share", "guardrail_metrics": ["Support contact volume", "Customer satisfaction"]},
+      "risks": ["Outreach volume can feel spammy if not targeted"],
+      "guardrails": ["Support contact volume", "Unsubscribe rate", "Customer satisfaction"]
+    },
+    "DELIVERY_PROBLEM": {
+      "description": "Orders arrive late or delivery fails, leading the customer to return the item.",
+      "applicable_categories": ["Home", "Apparel", "Beauty", "Electronics", "Furniture", "Footwear"],
+      "success_metric": "Delivery-related return share",
+      "pre_purchase": [
+        {"id": "accurate_delivery_promise", "name": "Accurate delivery-date promise", "description": "Show delivery windows based on real carrier performance rather than nominal service levels.", "effort": "Medium", "expected_impact": "High", "placement": "Product page and checkout"}
+      ],
+      "post_purchase": [
+        {"id": "proactive_delay_notice", "name": "Proactive delay notice", "description": "Draft a delay notice with a new date and options before the customer has to ask.", "effort": "Low", "expected_impact": "Medium", "channel": "Email/SMS draft", "satisfaction_impact": "High", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 10, "expected_percent": 18, "high_percent": 26, "confidence": 0.7, "satisfaction_effect": "Likely positive", "implementation_cost": "Medium"},
+      "experiment": {"design": "Two-week randomized A/B test", "duration_days": 14, "primary_metric": "Delivery-related return share", "guardrail_metrics": ["Conversion rate", "Customer satisfaction"]},
+      "risks": ["Conservative promises can reduce conversion"],
+      "guardrails": ["Conversion rate", "Customer satisfaction"]
+    },
+    "OTHER": {
+      "description": "Returns with no transparent keyword match. Safe fallback: review manually; do not draw conclusions.",
+      "applicable_categories": [],
+      "success_metric": "Share of returns classified as OTHER (lower means a clearer taxonomy)",
+      "pre_purchase": [
+        {"id": "manual_review", "name": "Manual review of unclassified returns", "description": "Review a sample of OTHER returns locally to extend the taxonomy. Never share the raw comments.", "effort": "Low", "expected_impact": "Low", "placement": "Internal returns-analytics review"}
+      ],
+      "post_purchase": [
+        {"id": "standard_support", "name": "Standard support follow-up", "description": "Handle through the normal returns process with no special intervention.", "effort": "Low", "expected_impact": "Low", "channel": "Customer support queue", "satisfaction_impact": "Low", "requires_human_approval": true}
+      ],
+      "forecast": {"low_percent": 0, "expected_percent": 2, "high_percent": 5, "confidence": 0.4, "satisfaction_effect": "Uncertain", "implementation_cost": "Low"},
+      "experiment": {"design": "No experiment until the cause is understood", "duration_days": 0, "primary_metric": "Share of returns classified as OTHER", "guardrail_metrics": ["Customer satisfaction"]},
+      "risks": ["Drawing conclusions from unclassified data"],
+      "guardrails": ["Customer satisfaction"]
+    }
+  }
+}

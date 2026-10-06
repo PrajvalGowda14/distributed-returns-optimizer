@@ -1,0 +1,65 @@
+return_id,order_id,retailer_id,product_category,product_name,return_reason,customer_comment,delivery_status,support_contacted,return_outcome,event_date
+B-RET-0001,B-ORD-0001,RETAILER_B,Home,Wall Mirror,Not as expected,"Not what I expected, the material felt thin.",Delivered,True,Refund,2026-08-14
+B-RET-0002,B-ORD-0002,RETAILER_B,Electronics,Smartwatch Band Loop,Incompatible with device,"Band is not supported on my watch, incompatible.",Delivered,False,Store credit,2026-08-08
+B-RET-0003,B-ORD-0003,RETAILER_B,Sports,Tennis Racket,Arrived damaged,"Arrived damaged, the packaging was torn.",Delivered,False,Refund,2026-08-19
+B-RET-0004,B-ORD-0004,RETAILER_B,Furniture,Oak Side Table,Not as expected,Desk was bigger than expected for my room.,Delivered,False,Exchange,2026-08-29
+B-RET-0005,B-ORD-0005,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Difficult to use,Could not connect Bluetooth to the speaker.,Delivered,True,Store credit,2026-07-13
+B-RET-0006,B-ORD-0006,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Incompatible with device,"Band is not supported on my watch, incompatible.",Delivered,True,Refund,2026-08-23
+B-RET-0007,B-ORD-0007,RETAILER_B,Furniture,Oak Side Table,Arrived damaged,One leg was broken on arrival.,Delivered,True,Store credit,2026-08-14
+B-RET-0008,B-ORD-0008,RETAILER_B,Electronics,Phone Case Nova,Arrived damaged,Casing was dented and scratched.,Delivered,False,Store credit,2026-07-23
+B-RET-0009,B-ORD-0009,RETAILER_B,Furniture,Two-Seat Sofa,Arrived damaged,Glass panel arrived broken.,Delivered,False,Refund,2026-07-05
+B-RET-0010,B-ORD-0010,RETAILER_B,Home,Wall Mirror,Not as expected,"Not as described, the colour is off.",Delivered,True,Exchange,2026-08-22
+B-RET-0011,B-ORD-0011,RETAILER_B,Home,Wall Mirror,Not as expected,The shade was not as pictured.,Delivered,True,Store credit,2026-08-15
+B-RET-0012,B-ORD-0012,RETAILER_B,Footwear,Court Sneaker,Size issue,"Too small, I need to size up.",Delivered,True,Store credit,2026-08-11
+B-RET-0013,B-ORD-0013,RETAILER_B,Home,Wall Mirror,Delivery issue,"Arrived after the event, took too long.",Delivered late,False,Store credit,2026-07-30
+B-RET-0014,B-ORD-0014,RETAILER_B,Apparel,Denim Jacket,Other,Gift recipient did not want it.,Delivered,False,Refund,2026-07-21
+B-RET-0015,B-ORD-0015,RETAILER_B,Home,Table Lamp,Not as expected,Mirror looked larger online.,Delivered,True,Store credit,2026-08-26
+B-RET-0016,B-ORD-0016,RETAILER_B,Furniture,Compact Desk,Not as expected,"Sofa does not fit in my living room, please list dimensions clearly.",Delivered,True,Refund,2026-07-22
+B-RET-0017,B-ORD-0017,RETAILER_B,Electronics,Laptop Dock Hub,Difficult to use,The setup app was confusing.,Delivered,True,Exchange,2026-07-14
+B-RET-0018,B-ORD-0018,RETAILER_B,Beauty,Velvet Lipstick,Not as expected,"Not what I expected, the material felt thin.",Delivered,False,Store credit,2026-07-18
+B-RET-0019,B-ORD-0019,RETAILER_B,Footwear,Trail Runner Shoe,Not as expected,The shade was not as pictured.,Delivered,True,Refund,2026-08-03
+B-RET-0020,B-ORD-0020,RETAILER_B,Furniture,Tall Bookshelf,Arrived damaged,Box was crushed and the top was scratched.,Delivered,True,Store credit,2026-08-16
+B-RET-0021,B-ORD-0021,RETAILER_B,Electronics,Laptop Dock Hub,Incompatible with device,"Band is not supported on my watch, incompatible.",Delivered,False,Exchange,2026-08-11
+B-RET-0022,B-ORD-0022,RETAILER_B,Footwear,Leather Ankle Boot,Size issue,Shoe was too tight.,Delivered,False,Refund,2026-08-20
+B-RET-0023,B-ORD-0023,RETAILER_B,Electronics,Wireless Earbuds Echo,Incompatible with device,Charger is not compatible with my laptop.,Delivered,True,Store credit,2026-07-15
+B-RET-0024,B-ORD-0024,RETAILER_B,Apparel,Wool Sweater,Not as expected,"Not what I expected, the material felt thin.",Delivered,True,Exchange,2026-07-20
+B-RET-0025,B-ORD-0025,RETAILER_B,Home,Table Lamp,Delivery issue,"Arrived after the event, took too long.",Delivered late,True,Exchange,2026-07-28
+B-RET-0026,B-ORD-0026,RETAILER_B,Apparel,Denim Jacket,Size issue,"Runs large, had to size down.",Delivered,False,Exchange,2026-08-14
+B-RET-0027,B-ORD-0027,RETAILER_B,Furniture,Two-Seat Sofa,Difficult to use,Install guide was confusing.,Delivered,False,Refund,2026-07-17
+B-RET-0028,B-ORD-0028,RETAILER_B,Footwear,Leather Ankle Boot,Size issue,"Runs small, toes felt cramped.",Delivered,True,Refund,2026-07-08
+B-RET-0029,B-ORD-0029,RETAILER_B,Furniture,Tall Bookshelf,Difficult to use,Install guide was confusing.,Delivered,True,Store credit,2026-08-17
+B-RET-0030,B-ORD-0030,RETAILER_B,Apparel,Denim Jacket,Size issue,Shirt was much too large.,Delivered,True,Exchange,2026-07-07
+B-RET-0031,B-ORD-0031,RETAILER_B,Beauty,Face Serum,Not as expected,Color looked different from the photo.,Delivered,False,Store credit,2026-07-24
+B-RET-0032,B-ORD-0032,RETAILER_B,Apparel,Wool Sweater,Size issue,Too tight across the shoulders.,Delivered,True,Refund,2026-07-18
+B-RET-0033,B-ORD-0033,RETAILER_B,Footwear,Court Sneaker,Size issue,"Runs small, toes felt cramped.",Delivered,False,Store credit,2026-07-19
+B-RET-0034,B-ORD-0034,RETAILER_B,Furniture,Compact Desk,Arrived damaged,Glass panel arrived broken.,Delivered,False,Exchange,2026-07-07
+B-RET-0035,B-ORD-0035,RETAILER_B,Beauty,Velvet Lipstick,Arrived damaged,Bottle arrived cracked and leaking.,Delivered,True,Exchange,2026-07-29
+B-RET-0036,B-ORD-0036,RETAILER_B,Furniture,Compact Desk,Arrived damaged,Corner arrived cracked.,Delivered,True,Exchange,2026-07-08
+B-RET-0037,B-ORD-0037,RETAILER_B,Electronics,Phone Case Nova,Incompatible with device,"Band is not supported on my watch, incompatible.",Delivered,False,Store credit,2026-08-06
+B-RET-0038,B-ORD-0038,RETAILER_B,Footwear,Trail Runner Shoe,Size issue,"Runs small, toes felt cramped.",Delivered,True,Store credit,2026-07-10
+B-RET-0039,B-ORD-0039,RETAILER_B,Beauty,Velvet Lipstick,Not as expected,Color looked different from the photo.,Delivered,False,Store credit,2026-07-06
+B-RET-0040,B-ORD-0040,RETAILER_B,Footwear,Leather Ankle Boot,Not as expected,The shade was not as pictured.,Delivered,True,Store credit,2026-08-08
+B-RET-0041,B-ORD-0041,RETAILER_B,Apparel,Chino Trousers,Not as expected,"Not as described, the colour is off.",Delivered,True,Exchange,2026-07-29
+B-RET-0042,B-ORD-0042,RETAILER_B,Home,Wall Mirror,Not as expected,Rug was smaller than it looked.,Delivered,False,Store credit,2026-07-20
+B-RET-0043,B-ORD-0043,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Incompatible with device,I selected the wrong device model.,Delivered,True,Store credit,2026-07-07
+B-RET-0044,B-ORD-0044,RETAILER_B,Furniture,Tall Bookshelf,Difficult to use,Assembly instructions were confusing.,Delivered,True,Refund,2026-07-17
+B-RET-0045,B-ORD-0045,RETAILER_B,Electronics,USB-C Charger Volt,Arrived damaged,Screen arrived cracked.,Delivered,True,Refund,2026-08-05
+B-RET-0046,B-ORD-0046,RETAILER_B,Electronics,Phone Case Nova,Delivery issue,Delivery was delayed by a week.,Delivered late,True,Store credit,2026-07-27
+B-RET-0047,B-ORD-0047,RETAILER_B,Apparel,Chino Trousers,Size issue,Too tight across the shoulders.,Delivered,True,Refund,2026-07-19
+B-RET-0048,B-ORD-0048,RETAILER_B,Apparel,Denim Jacket,Other,No longer needed.,Delivered,True,Store credit,2026-08-15
+B-RET-0049,B-ORD-0049,RETAILER_B,Beauty,Velvet Lipstick,Arrived damaged,Compact arrived broken.,Delivered,False,Store credit,2026-07-05
+B-RET-0050,B-ORD-0050,RETAILER_B,Sports,Tennis Racket,Arrived damaged,Racket frame arrived cracked.,Delivered,True,Store credit,2026-07-28
+B-RET-0051,B-ORD-0051,RETAILER_B,Apparel,Wool Sweater,Size issue,"Runs small, I need to size up.",Delivered,False,Refund,2026-08-28
+B-RET-0052,B-ORD-0052,RETAILER_B,Electronics,Phone Case Nova,Difficult to use,Pairing kept failing and the instructions were confusing.,Delivered,False,Exchange,2026-07-04
+B-RET-0053,B-ORD-0053,RETAILER_B,Apparel,Denim Jacket,Size issue,Sleeves are too long.,Delivered,False,Exchange,2026-07-29
+B-RET-0054,B-ORD-0054,RETAILER_B,Electronics,Bluetooth Speaker Pulse,Difficult to use,Could not connect to wifi during setup.,Delivered,False,Exchange,2026-07-20
+B-RET-0055,B-ORD-0055,RETAILER_B,Home,Wall Mirror,Not as expected,Color looked different from the photo.,Delivered,False,Exchange,2026-07-29
+B-RET-0056,B-ORD-0056,RETAILER_B,Apparel,Denim Jacket,Not as expected,"Not what I expected, the material felt thin.",Delivered,True,Refund,2026-08-08
+B-RET-0057,B-ORD-0057,RETAILER_B,Beauty,Face Serum,Not as expected,Color looked different from the photo.,Delivered,False,Store credit,2026-07-15
+B-RET-0058,B-ORD-0058,RETAILER_B,Home,Table Lamp,Not as expected,Rug was smaller than it looked.,Delivered,False,Exchange,2026-08-06
+B-RET-0059,B-ORD-0059,RETAILER_B,Home,Wall Mirror,Not as expected,Lamp was smaller than expected.,Delivered,False,Exchange,2026-08-28
+B-RET-0060,B-ORD-0060,RETAILER_B,Furniture,Compact Desk,Not as expected,Desk was bigger than expected for my room.,Delivered,True,Exchange,2026-07-06
+B-RET-0061,B-ORD-0061,RETAILER_B,Apparel,Denim Jacket,Not as expected,Color looked different from the photo.,Delivered,False,Refund,2026-08-12
+B-RET-0062,B-ORD-0062,RETAILER_B,Electronics,Wireless Earbuds Echo,Incompatible with device,"Band is not supported on my watch, incompatible.",Delivered,False,Exchange,2026-07-27
+B-RET-0063,B-ORD-0063,RETAILER_B,Home,Table Lamp,Delivery issue,"Arrived after the event, took too long.",Delivered late,True,Refund,2026-08-12
+B-RET-0064,B-ORD-0064,RETAILER_B,Footwear,Leather Ankle Boot,Not as expected,"Not what I expected, the material felt thin.",Delivered,False,Exchange,2026-07-06

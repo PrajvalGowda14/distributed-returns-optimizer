@@ -1,0 +1,66 @@
+return_id,order_id,retailer_id,product_category,product_name,return_reason,customer_comment,delivery_status,support_contacted,return_outcome,event_date
+A-RET-0001,A-ORD-0001,RETAILER_A,Sports,Tennis Racket,Arrived damaged,"Arrived damaged, the packaging was torn.",Delivered,True,Exchange,2026-08-25
+A-RET-0002,A-ORD-0002,RETAILER_A,Footwear,Court Sneaker,Size issue,"Runs large, had to size down.",Delivered,False,Refund,2026-08-23
+A-RET-0003,A-ORD-0003,RETAILER_A,Electronics,Wireless Earbuds Echo,Incompatible with device,I selected the wrong device model.,Delivered,True,Store credit,2026-07-23
+A-RET-0004,A-ORD-0004,RETAILER_A,Furniture,Two-Seat Sofa,Not as expected,Table looked larger online.,Delivered,False,Store credit,2026-08-14
+A-RET-0005,A-ORD-0005,RETAILER_A,Electronics,Bluetooth Speaker Pulse,Delivery issue,"Arrived after the event, took too long.",Delivered late,True,Store credit,2026-07-11
+A-RET-0006,A-ORD-0006,RETAILER_A,Apparel,Wool Sweater,Size issue,"Runs large, had to size down.",Delivered,False,Exchange,2026-07-11
+A-RET-0007,A-ORD-0007,RETAILER_A,Furniture,Two-Seat Sofa,Arrived damaged,Box was crushed and the top was scratched.,Delivered,False,Store credit,2026-08-29
+A-RET-0008,A-ORD-0008,RETAILER_A,Home,Table Lamp,Not as expected,Color looked different from the photo.,Delivered,True,Refund,2026-08-23
+A-RET-0009,A-ORD-0009,RETAILER_A,Footwear,Trail Runner Shoe,Size issue,"Runs large, had to size down.",Delivered,False,Exchange,2026-08-21
+A-RET-0010,A-ORD-0010,RETAILER_A,Electronics,Wireless Earbuds Echo,Difficult to use,Pairing kept failing and the instructions were confusing.,Delivered,False,Store credit,2026-07-05
+A-RET-0011,A-ORD-0011,RETAILER_A,Beauty,Body Lotion,Other,Skin irritation after one use.,Delivered,False,Exchange,2026-07-21
+A-RET-0012,A-ORD-0012,RETAILER_A,Furniture,Compact Desk,Arrived damaged,Box was crushed and the top was scratched.,Delivered,False,Store credit,2026-07-10
+A-RET-0013,A-ORD-0013,RETAILER_A,Home,Table Lamp,Delivery issue,"Arrived after the event, took too long.",Delivered late,True,Exchange,2026-08-17
+A-RET-0014,A-ORD-0014,RETAILER_A,Apparel,Denim Jacket,Size issue,Shirt was much too large.,Delivered,False,Store credit,2026-07-15
+A-RET-0015,A-ORD-0015,RETAILER_A,Footwear,Leather Ankle Boot,Size issue,Shoe was too tight.,Delivered,True,Refund,2026-07-06
+A-RET-0016,A-ORD-0016,RETAILER_A,Furniture,Tall Bookshelf,Not as expected,Desk was bigger than expected for my room.,Delivered,False,Store credit,2026-08-10
+A-RET-0017,A-ORD-0017,RETAILER_A,Home,Area Rug,Not as expected,Mirror looked larger online.,Delivered,True,Store credit,2026-07-25
+A-RET-0018,A-ORD-0018,RETAILER_A,Home,Table Lamp,Delivery issue,Package was late.,Delivered late,False,Store credit,2026-08-05
+A-RET-0019,A-ORD-0019,RETAILER_A,Beauty,Body Lotion,Other,Allergic reaction to the fragrance.,Delivered,True,Exchange,2026-07-08
+A-RET-0020,A-ORD-0020,RETAILER_A,Furniture,Two-Seat Sofa,Arrived damaged,Box was crushed and the top was scratched.,Delivered,True,Exchange,2026-07-08
+A-RET-0021,A-ORD-0021,RETAILER_A,Apparel,Linen Shirt,Not as expected,"Not what I expected, the material felt thin.",Delivered,True,Store credit,2026-08-16
+A-RET-0022,A-ORD-0022,RETAILER_A,Electronics,USB-C Charger Volt,Difficult to use,Could not connect Bluetooth to the speaker.,Delivered,True,Store credit,2026-08-02
+A-RET-0023,A-ORD-0023,RETAILER_A,Furniture,Two-Seat Sofa,Not as expected,Shelf was smaller than expected.,Delivered,False,Refund,2026-08-23
+A-RET-0024,A-ORD-0024,RETAILER_A,Home,Table Lamp,Delivery issue,"Arrived after the event, took too long.",Delivered late,True,Refund,2026-08-18
+A-RET-0025,A-ORD-0025,RETAILER_A,Apparel,Denim Jacket,Size issue,Too tight across the shoulders.,Delivered,False,Refund,2026-08-01
+A-RET-0026,A-ORD-0026,RETAILER_A,Furniture,Two-Seat Sofa,Difficult to use,"Could not assemble it, the instructions skip steps.",Delivered,True,Refund,2026-08-26
+A-RET-0027,A-ORD-0027,RETAILER_A,Apparel,Linen Shirt,Not as expected,Color looked different from the photo.,Delivered,True,Refund,2026-07-16
+A-RET-0028,A-ORD-0028,RETAILER_A,Furniture,Compact Desk,Not as expected,Shelf was smaller than expected.,Delivered,True,Refund,2026-08-22
+A-RET-0029,A-ORD-0029,RETAILER_A,Electronics,Bluetooth Speaker Pulse,Not as expected,The shade was not as pictured.,Delivered,False,Exchange,2026-07-31
+A-RET-0030,A-ORD-0030,RETAILER_A,Electronics,Smartwatch Band Loop,Incompatible with device,"Dock does not work with my laptop, wrong model.",Delivered,False,Exchange,2026-08-25
+A-RET-0031,A-ORD-0031,RETAILER_A,Electronics,USB-C Charger Volt,Not as expected,The shade was not as pictured.,Delivered,False,Store credit,2026-08-29
+A-RET-0032,A-ORD-0032,RETAILER_A,Furniture,Two-Seat Sofa,Arrived damaged,Glass panel arrived broken.,Delivered,False,Exchange,2026-07-26
+A-RET-0033,A-ORD-0033,RETAILER_A,Apparel,Chino Trousers,Size issue,Too tight across the shoulders.,Delivered,True,Refund,2026-07-08
+A-RET-0034,A-ORD-0034,RETAILER_A,Electronics,Phone Case Nova,Difficult to use,Could not connect Bluetooth to the speaker.,Delivered,True,Store credit,2026-07-22
+A-RET-0035,A-ORD-0035,RETAILER_A,Electronics,Smartwatch Band Loop,Incompatible with device,"Dock does not work with my laptop, wrong model.",Delivered,True,Refund,2026-07-15
+A-RET-0036,A-ORD-0036,RETAILER_A,Home,Area Rug,Not as expected,Color looked different from the photo.,Delivered,False,Refund,2026-07-05
+A-RET-0037,A-ORD-0037,RETAILER_A,Beauty,Face Serum,Other,Skin irritation after one use.,Delivered,True,Refund,2026-08-27
+A-RET-0038,A-ORD-0038,RETAILER_A,Sports,Tennis Racket,Arrived damaged,Racket frame arrived cracked.,Delivered,True,Store credit,2026-07-18
+A-RET-0039,A-ORD-0039,RETAILER_A,Beauty,Face Serum,Other,Allergic reaction to the fragrance.,Delivered,False,Store credit,2026-08-16
+A-RET-0040,A-ORD-0040,RETAILER_A,Home,Wall Mirror,Not as expected,Mirror looked larger online.,Delivered,True,Refund,2026-07-16
+A-RET-0041,A-ORD-0041,RETAILER_A,Footwear,Trail Runner Shoe,Size issue,"Pinches at the heel, too tight.",Delivered,True,Exchange,2026-07-07
+A-RET-0042,A-ORD-0042,RETAILER_A,Apparel,Chino Trousers,Not as expected,"Not as described, the colour is off.",Delivered,False,Store credit,2026-07-27
+A-RET-0043,A-ORD-0043,RETAILER_A,Apparel,Linen Shirt,Size issue,Too small in the chest.,Delivered,True,Store credit,2026-08-13
+A-RET-0044,A-ORD-0044,RETAILER_A,Apparel,Linen Shirt,Size issue,"Runs large, had to size down.",Delivered,True,Store credit,2026-07-04
+A-RET-0045,A-ORD-0045,RETAILER_A,Apparel,Denim Jacket,Not as expected,Color looked different from the photo.,Delivered,False,Refund,2026-08-21
+A-RET-0046,A-ORD-0046,RETAILER_A,Home,Ceramic Vase,Not as expected,The shade was not as pictured.,Delivered,True,Exchange,2026-07-13
+A-RET-0047,A-ORD-0047,RETAILER_A,Footwear,Trail Runner Shoe,Size issue,"Pinches at the heel, too tight.",Delivered,True,Refund,2026-07-18
+A-RET-0048,A-ORD-0048,RETAILER_A,Home,Area Rug,Not as expected,Lamp was smaller than expected.,Delivered,True,Refund,2026-07-29
+A-RET-0049,A-ORD-0049,RETAILER_A,Electronics,Phone Case Nova,Incompatible with device,"Dock does not work with my laptop, wrong model.",Delivered,True,Refund,2026-08-11
+A-RET-0050,A-ORD-0050,RETAILER_A,Electronics,Phone Case Nova,Incompatible with device,I selected the wrong device model.,Delivered,True,Refund,2026-08-29
+A-RET-0051,A-ORD-0051,RETAILER_A,Beauty,Velvet Lipstick,Other,Skin irritation after one use.,Delivered,False,Refund,2026-08-01
+A-RET-0052,A-ORD-0052,RETAILER_A,Apparel,Wool Sweater,Size issue,Sleeves are too long.,Delivered,True,Exchange,2026-07-25
+A-RET-0053,A-ORD-0053,RETAILER_A,Electronics,Wireless Earbuds Echo,Incompatible with device,Charger is not compatible with my laptop.,Delivered,False,Exchange,2026-08-29
+A-RET-0054,A-ORD-0054,RETAILER_A,Apparel,Chino Trousers,Not as expected,"Not as described, the colour is off.",Delivered,False,Refund,2026-08-14
+A-RET-0055,A-ORD-0055,RETAILER_A,Electronics,USB-C Charger Volt,Not as expected,The shade was not as pictured.,Delivered,False,Refund,2026-07-19
+A-RET-0056,A-ORD-0056,RETAILER_A,Home,Area Rug,Delivery issue,Package was late.,Delivered late,False,Store credit,2026-08-17
+A-RET-0057,A-ORD-0057,RETAILER_A,Electronics,Laptop Dock Hub,Incompatible with device,"Dock does not work with my laptop, wrong model.",Delivered,True,Refund,2026-08-02
+A-RET-0058,A-ORD-0058,RETAILER_A,Furniture,Oak Side Table,Difficult to use,Assembly instructions were confusing.,Delivered,True,Refund,2026-08-02
+A-RET-0059,A-ORD-0059,RETAILER_A,Electronics,Smartwatch Band Loop,Difficult to use,Pairing kept failing and the instructions were confusing.,Delivered,False,Exchange,2026-07-05
+A-RET-0060,A-ORD-0060,RETAILER_A,Furniture,Oak Side Table,Difficult to use,Assembly instructions were confusing.,Delivered,False,Store credit,2026-08-30
+A-RET-0061,A-ORD-0061,RETAILER_A,Footwear,Court Sneaker,Size issue,Shoe was too tight.,Delivered,True,Exchange,2026-07-03
+A-RET-0062,A-ORD-0062,RETAILER_A,Footwear,Court Sneaker,Size issue,"Too small, I need to size up.",Delivered,False,Exchange,2026-08-07
+A-RET-0063,A-ORD-0063,RETAILER_A,Apparel,Wool Sweater,Size issue,Too small in the chest.,Delivered,False,Exchange,2026-08-12
+A-RET-0064,A-ORD-0064,RETAILER_A,Electronics,USB-C Charger Volt,Incompatible with device,Charger is not compatible with my laptop.,Delivered,True,Refund,2026-07-17
+A-RET-0065,A-ORD-0065,RETAILER_A,Footwear,Court Sneaker,Size issue,"Too small, I need to size up.",Delivered,False,Exchange,2026-08-11
